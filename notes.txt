@@ -1,0 +1,16 @@
+Local var :
+
+composer create-project laravel/laravel example-app
+
+cd example-app
+
+php artisan serve
+
+Globl:
+composer global require laravel/installer
+
+laravel new example-app
+
+cd example-app
+
+php artisan serve

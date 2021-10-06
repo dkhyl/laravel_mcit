@@ -1,0 +1,11 @@
+<!-- printing RAW php tag inside html page with our var -->
+
+    <!--HTMLSPICALCHARS -->
+    <!-- this will print you orignal var without printing your html code
+     larvel have security to block the html code -->
+    {{ $name }}
+    
+    <!-- this will print you h1 tag from your var name here we bypass it or to allow the html code
+    HTMLSPICALCHARS-->
+    {!! $name !!}
+    <!--HTMLSPICALCHARS -->

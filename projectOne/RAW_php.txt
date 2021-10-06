@@ -1,0 +1,4 @@
+<!-- printing RAW php tag inside html page -->
+@php
+echo $name;
+@endphp
